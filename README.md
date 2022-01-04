@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample Rails application showing how to intercept the browser's network requests using Selenium's HasNetworkIntercept extension.
 
-Things you may want to cover:
+The app includes the setup for both MiniTest and RSpec.
 
-* Ruby version
+You can test them running `rails test:system` and `rails spec`.
 
-* System dependencies
+A blog post with some more info: ...
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check the comments in the `lib/interceptor.rb` file for more details and options.
